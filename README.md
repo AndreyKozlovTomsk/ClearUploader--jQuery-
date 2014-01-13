@@ -62,7 +62,7 @@ Obtaining data from Ajax (for PHP scripts)
 	(string)    $_POST['cu_*']      - Where * object field user_data
 
 ==========================================================
-Event trigger:
+Events trigger:
 
 	complete        - On AJAX complete and all the features work finished
 	before_sending  - Files before sending Ajax
