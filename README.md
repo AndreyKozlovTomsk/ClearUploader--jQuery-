@@ -1,9 +1,7 @@
 ClearUploader--jQuery-
 ======================
 
-ClearUploader jQuery
-
-Asynchronous sending files to the server with the user data!
+ASYNCHRONOUS SENDING FILES TO THE SERVER WITH THE USER DATA!
 
 Created to work with the module Kohana (can be used independently)
 
