@@ -1,6 +1,6 @@
 /* =========================================================
  * clear-uploader.js (required jQuery 1.10.2+)
- * (c) 2013 Andrey Kozlov Tomsk
+ * (c) 2014 Andrey Kozlov Tomsk
  * Created to work with the module Kohana (can be used independently)
  * ==========================================================
  * Settings:
