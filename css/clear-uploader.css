@@ -63,13 +63,6 @@
     background-color: #c4e3f3;
 }
 
-/*.clearuploader-row table td[class*="span"],
-.clearuploader-row table th[class*="span"] {
-    display: table-cell;
-    float: none;
-    margin-left: 0;
-}*/
-
 .clearuploader-table td.span1,
 .clearuploader-table th.span1 {
     float: none;
