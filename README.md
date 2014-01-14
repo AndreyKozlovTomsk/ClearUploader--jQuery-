@@ -30,19 +30,21 @@ Required **jQuery 1.10.2+**
     	clearuploader-btn-info      - gray-blue
     	clearuploader-btn-upload    - black
 
-	jQuery function (AJAX POST-type asynchronous):
-	    function functionName(element, id){ // element - this, id - for example
-        	$(element).ClearUploader({
-            	php_url: "ajax/anyPHPscript" // GET for example
-            	, user_data: {
-                	id: id
-                	, folder: "user/" // folder - for example (any another data), NOT Objects!
-                	// etc.
-            	}
-            	, delay: 15000 // value - for example (1500 by default)
-            	, style: "primary" // the above upload-button styles, value - for example ("upload" by default)
-        	});
+**JavaScript function** (AJAX POST-type asynchronous):
+```javascript
+    function functionName(element, id){ // element - this, id - for example
+	$(element).ClearUploader({
+    	php_url: "ajax/anyPHPscript" // GET for example
+    	, user_data: {
+        	id: id
+        	, folder: "user/" // folder - for example (any another data), NOT Objects!
+        	// etc.
     	}
+    	, delay: 15000 // value - for example (1500 by default)
+    	, style: "primary" // the above upload-button styles, value - for example ("upload" by default)
+	});
+    }
+```
 
 ==========================================================
 **PHP** script receives:
@@ -71,9 +73,10 @@ Obtaining data **from Ajax** (for **PHP** scripts)
 	after_sending   - Files after sending Ajax
     	
 **Example** of use:
-
+```javascript
 	function functionName(element, id){ // element - this, id - for example
     	$(element).on('complete', function () {
     	    // your code...
     	})
 	}
+```
