@@ -1,12 +1,12 @@
 ClearUploader-jQuery
-======================
+---
 
 ASYNCHRONOUS SENDING FILES TO THE SERVER WITH THE USER DATA!
 
 Created to work with the module Kohana (can be used independently)
 
-==========================================================
-Settings:
+===
+**Settings**:
 
 	object type:
 		(string)    php_url     - url php script that handles the Ajax request
@@ -14,7 +14,7 @@ Settings:
 		(int)       delay       - delay before hiding ClearUploader elements (1500 by default)
 		
 ==========================================================
-Examples:
+**Examples**:
 
 	Input button (HTML):
 		<input type="button" class="clearuploader-btn clearuploader-btn-success" value="Choose files..." onclick="$(this).next().click()">
@@ -43,7 +43,7 @@ Examples:
     	}
 
 ==========================================================
-PHP script receives:
+**PHP** script receives:
 
 	$_FILES['file']     - ONE! of the selected file!
 	$_POST['cu_id']     - will contain your ID
@@ -51,7 +51,7 @@ PHP script receives:
 	// etc.
 
 ==========================================================
-Obtaining data from Ajax (for PHP scripts)
+Obtaining data **from Ajax** (for **PHP** scripts)
 
 	(object)    $_FILES['file']     - ONE! of the selected file type FormData() with fields:
     	(int)       error       - Error capture file
@@ -62,13 +62,13 @@ Obtaining data from Ajax (for PHP scripts)
 	(string)    $_POST['cu_*']      - Where * object field user_data
 
 ==========================================================
-Events trigger:
+**Events** trigger:
 
 	complete        - On AJAX complete and all the features work finished
 	before_sending  - Files before sending Ajax
 	after_sending   - Files after sending Ajax
     	
-Example of use:
+**Example** of use:
 
 	function functionName(element, id){ // element - this, id - for example
     	$(element).on('complete', function () {
