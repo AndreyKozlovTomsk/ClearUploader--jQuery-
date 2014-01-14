@@ -1,4 +1,4 @@
-Clear-Uploader-jQuery
+ClearUploader-jQuery
 ======================
 
 ASYNCHRONOUS SENDING FILES TO THE SERVER WITH THE USER DATA!
